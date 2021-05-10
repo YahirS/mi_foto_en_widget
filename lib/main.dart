@@ -48,24 +48,27 @@ class PaginaInicio extends StatelessWidget {
                   ),
                 ),
               ), //fin de contenedor texto yahir
-              SizedBox(height: 50),
+              SizedBox(
+                height: 50,
+              ),
               Container(
-                height: 100,
-                width: 100,
+                height: 150,
+                width: 150,
                 decoration: BoxDecoration(
+                  color: Colors.indigo,
+                  image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/vianeyalejandra03/mis_imagenes/main/icon.jpg"), alignment: Alignment.topCenter),
                   border: Border(
                     top: BorderSide(
-                      color: Colors.purple,
-                      image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/YahirS/Mis_imagenes/main/YAHIR22.jpg"), alignment: Alignment.topCenter),
+                      color: Colors.purple[300],
                       width: 5.0,
                     ),
                     bottom: BorderSide(
-                      color: Colors.purple,
+                      color: Colors.purple[300],
                       width: 5.0,
                     ),
                   ),
-                ),
-              ), //fin de contenedor foto
+                ), //fin de el decoration box
+              ), //fin de el container foto
               SizedBox(height: 50),
               Container(
                 height: 100,
