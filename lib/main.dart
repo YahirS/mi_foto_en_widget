@@ -75,7 +75,7 @@ class PaginaInicio extends StatelessWidget {
                 width: 200,
                 child: TextField(
                   decoration: InputDecoration(
-                    color: Colors.amber[100],
+                    color: Colors.amber,
                     hintText: "6*J Programacion",
                     enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(
